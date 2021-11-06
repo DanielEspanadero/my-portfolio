@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Españadero">
+    <meta name="description"
+        content="Daniel Españadero is a web developer who uses HTML, CSS and JavaScript. In addition to Git and Github for version control. This is his portfolio.">
+    <meta name="copyright" content="Daniel Españadero">
+    <title>Daniel Españadero</title>
+    <link rel="stylesheet" type="text/css" href="../css/01-general-styles/general.css">
+    <link rel="stylesheet" type="text/css" href="../css/01-general-styles/nav.css">
+    <link rel="stylesheet" type="text/css" href="../css/01-general-styles/nav-responsive.css">
+    <link rel="stylesheet" type="text/css" href="../css/01-general-styles/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/04-contact/contact.css">
+    <link rel="stylesheet" type="text/css" href="../css/04-contact/contact-responsive.css">
+    <script type="text/javascript" src="../javascript/01-general-styles/footer-en.js"></script>
+    <script type="text/javascript" src="../javascript/01-general-styles/languages-button.js"></script>
+    <script type="text/javascript" src="../javascript/01-general-styles/whitebars-button.js"></script>
+    <script type="text/javascript" src="../javascript/04-contact/form-validation.js"></script>
+</head>
+
+<body>
+    <nav id="nav">
+        <div id="all-things-nav">
+            <div id="text-name_container">
+                <h3>
+                    <span id="fisrt-name">Daniel</span>
+                    <span id="last-name">Españadero</span>
+                </h3>
+            </div>
+            <img id="white-bars" alt="white bars" src="../assets/images/whiteBars.webp">
+            <div class="list-js">
+                <ul>
+                    <li><a href="../index.html">Homepage</a></li>
+                    <li><a href="about-me.html">About Me</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div id="languages_container">
+                <img id="languages" alt="languages icon" src="../assets/images/translate.webp">
+                <div id="languages-toggle_container">
+                    <div class="lang-box">
+                        <a href="languages/es/contacto.html"><img class="flag-button" alt="spanish flag" src="../assets/images/es.webp"></a>
+                        <a href="#"><img class="flag-button" alt="usa flag" src="../assets/images/en.webp"></a>
+                        <a href="languages/cat/contacte.html"><img class="flag-button" alt="catalonia flag"
+                            src="../assets/images/cat.webp"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <article id="first-view">
+            <section id="form_container">
+                <form id="form">
+                    <label class="form-text" id="name-text" for="name">Name:</label>
+                    <input id="name" class="form-area" type="text" name="name" required>
+                    <label class="form-text" for="email">Email:</label>
+                    <input id="email" class="form-area" type="email" name="email" required>
+                    <label class="form-text" for="message">Message:</label>
+                    <textarea id="message" class="form-area" name="message" required></textarea>
+                    <button id="submit" type="submit" value="SUBMIT">SUBMIT</button>
+                    <p id="warnings"></p>
+                </form>
+            </section>
+        </article>
+        <article id="second-view">
+            <section id="social_container">
+                <h1>My social networks:</h1>
+                <div id="img-social_container">
+                    <a href="https://twitter.com/d_espanadero" target="_BLANK"><img class="social" src="../assets/images/twitter.webp"></a>
+                    <a href="https://www.instagram.com/danielespanadero/" target="_BLANK"><img class="social" src="../assets/images/instagram.webp"></a>
+                    <a href="https://github.com/DanielEspanadero" target="_BLANK"><img class="social" src="../assets/images/github.webp"></a>
+                    <a href="https://www.youtube.com/channel/UCytSoY4twW6E-OoIPaP275g" target="_BLANK"><img class="social" src="../assets/images/youtube.webp"></a>
+                    <a href="https://www.linkedin.com/in/daniel-espa%C3%B1adero-fern%C3%A1ndez-430266175/" target="_BLANK"><img class="social" src="../assets/images/linkedin.webp"></a>
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer id="footer">
+        <P id="footer-text"></P>
+    </footer>
+</body>
+
+</html>

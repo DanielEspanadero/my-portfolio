@@ -1,0 +1,127 @@
+#first-view{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100vh;
+    background-image:url("../../assets/images/background1.webp");
+    background-size:cover;
+    background-attachment:fixed;
+}
+#first-text{
+    background-color:#0006;
+    padding:2em;
+    border-radius:1em;
+    box-shadow:2px 2px 10px #555 inset;
+    color:#fff;
+    font-family:"Gotham";
+    font-size:.6em;
+    margin:1em;
+    overflow:hidden;
+}
+#wd{
+    font-family:"Gotham";
+    color:#ce2ace;
+    text-shadow:2px 2px 2px #000;
+}
+#second-view{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+    height:70em;
+    background-color:#272625;
+    overflow:hidden;
+}
+.title{
+    text-align:center;
+    font-size:1em;
+    margin-bottom:1em;
+    color:#fff;
+    font-family:"Gotham";
+    text-shadow:10px 10px 10px #000;
+}
+#images_container{
+    display:flex;
+    flex-flow:row wrap;
+    align-items:center;
+    justify-content:center;
+}
+.lan{
+    height:5em;
+    margin:1em;
+}
+
+/* Projects */
+
+#third-view{
+    background-image:url("../../assets/images/background2.webp");
+    background-size:cover;
+    background-attachment:fixed;
+    overflow:hidden;
+}
+#third-view > h2{
+    padding-top:1.5em;
+    width:100%;
+}
+.work_container{
+    width:100%;
+    height:25em;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
+.proyect{
+    margin:2em 0 0 0;
+    border:5px solid #c7932488;
+    height:4em;
+    border-radius:1em;
+}
+.proyect:hover{
+    border:5px solid #e81224;
+}
+.work-text_container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-top:.5em;
+}
+.work-text_container > h3{
+    font-size:1em;
+    margin:0 0 .5em 0;
+}
+.work-text_container > p{
+    font-size:.3em;
+    text-align:center;
+    font-family:"Gotham";
+    color:#fff;
+    text-shadow:10px 10px 10px #000;
+}
+.button_container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.button1{
+    margin:.8em 0;
+}
+.button{
+    cursor:pointer;
+    background-color:#e81224;
+    padding:1em;
+    border-radius:1em;
+    font-family:"Gotham";
+    width:10em;
+    font-size:.6em;
+    color:#fff;
+    border:none;
+}
+.button:hover{
+    background-color:#99000d;
+    color:#000;
+}
+.button:active{
+    color:#ffffff;
+}

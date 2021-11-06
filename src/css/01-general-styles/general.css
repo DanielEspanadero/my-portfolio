@@ -1,0 +1,36 @@
+/* General styles */
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    list-style:none;
+    user-select:none;
+    box-sizing:border-box;
+}
+
+/* Scrollbar decoration */
+
+body::-webkit-scrollbar {
+	width:7px;
+    background-color:#000;
+}
+body::-webkit-scrollbar-thumb {
+	background: #d44a0a;
+	border-radius: 5px;
+}
+body::-webkit-scrollbar-thumb:hover {
+	background: #ff8952;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family:"Gotham";
+    src: url("../../assets/fonts/GothamMedium.otf");
+}
+@font-face {
+    font-family:"Press Start";
+    src: url("../../assets/fonts/PressStart2P-Regular.ttf");
+}
+

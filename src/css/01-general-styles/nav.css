@@ -1,0 +1,131 @@
+#nav{
+    position:fixed;
+    display:flex;
+    width:100%;
+    height:5em;
+    background-color:#6667;
+}
+#all-things-nav{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    border-bottom:2px solid #0005;
+}
+#text-name_container{
+    display:none;
+    align-items:center;
+    font-family:"Press Start", Helvetica, sans-serif;
+    color:#e7e7e7;
+    text-shadow:1px 1px 10px #000;
+}
+#fisrt-name{
+    display:block;
+    margin-bottom:.5em;
+}
+#white-bars{
+    height:3em;
+    cursor:pointer;
+}
+.list-js{
+    display:none;
+}
+.list_container{
+    display:flex;
+    position:absolute;
+    top:5.3em;
+    width:100%;
+    height:100vh;
+    background-color:#6667;
+    animation:menu 1000ms;
+}
+@keyframes menu{
+    from{
+        margin-left:-80em;
+    }
+    to{
+        margin-left:0;
+    }
+}
+.list_container > ul{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
+    height:100%;
+}
+.list_container > ul > li > a{
+    display:block;
+    position:relative;
+    top:.5em;
+    color:#e7e7e7;
+    font-size:1em;
+    font-family:"Gotham", Arial, sans-serif;
+    padding:.7em;
+    transition:all 500ms;
+}
+.list_container > ul > li > a:hover{
+    color:#ff8952;
+    text-decoration:underline;
+}
+
+/* Button languages */
+
+#languages_container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+}
+#languages{
+    height:3em;
+    cursor:pointer;
+}
+#languages-toggle_container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    right:1em;
+    top:15em;
+    z-index:100;
+    height:10em;
+    width:4em;
+    position:absolute;
+}
+.languages{
+    position:relative;
+    z-index:100;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+    height:100%;
+    background:#a1631254;
+    box-shadow:2px 2px 10px #d44a0a inset;
+    border-radius:1em;
+    animation:languages 2s;
+}
+@keyframes languages{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+.flag-button{
+    display:none;
+}
+.flag{
+    position:relative;
+    z-index:100;
+    display:block;
+    cursor:pointer;
+    height:1.5em;
+    margin:.5em;
+}
+.flag:hover{
+    box-shadow:1px 1px 10px #fff,1px 1px 10px #fff;
+}
