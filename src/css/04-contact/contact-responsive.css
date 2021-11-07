@@ -1,6 +1,9 @@
 @media screen and (min-width:240px){
 /* This is the form view */
 
+    #first-view{
+        height:20em;
+    }
     #form_container{
         height:70%;
     }
@@ -36,6 +39,9 @@
 @media screen and (min-width:320px){
 /* This is the form view */
 
+    #first-view{
+        height:35em;
+    }
     #form_container{
         height:80%;
     }
@@ -72,6 +78,9 @@
 @media screen and (min-width:360px){
 /* This is the form view */
 
+    #first-view{
+        height:40em;
+    }
     .form-text{
         font-size:1.5em;
     }
@@ -102,6 +111,9 @@
 @media screen and (min-width:375px){
 /* This is the form view */
 
+    #first-view{
+        height:51em;
+    }
     .form-text{
         font-size:2em;
     }
@@ -123,6 +135,9 @@
 @media screen and (min-width:480px){
 /* This is the form view */
 
+    #first-view{
+        height:20em;
+    }
     #form_container{
         height:70%;
     }
@@ -153,6 +168,9 @@
 @media screen and (min-width:768px){
 /* This is the form view */
 
+    #first-view{
+        height:100vh;
+    }
     #form_container{
         height:80%;
     }

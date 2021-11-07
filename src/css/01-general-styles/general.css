@@ -28,9 +28,11 @@ body::-webkit-scrollbar-thumb:hover {
 @font-face {
     font-family:"Gotham";
     src: url("../../assets/fonts/GothamMedium.otf");
+    font-display:swap;
 }
 @font-face {
     font-family:"Press Start";
     src: url("../../assets/fonts/PressStart2P-Regular.ttf");
+    font-display:swap;
 }
 
